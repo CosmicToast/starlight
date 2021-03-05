@@ -11,6 +11,7 @@ Other files inside of `colors/*.sh` are generators for various applications I us
 The goal is for me to only need to modify `colors/colors.sh` and the explanation/implementation section whenever I make adjustments.
 
 ## Screenshots
+![Starlight](data/starlight.png)
 
 ## Goals
 * All base colors (black, red, green, yellow, blue, magenta, cyan, white) should be easily uniquely identifiable.
