@@ -1,6 +1,12 @@
 # CHANGELOG
 Documentation on how the colors were determined in every version, along with the changes.
 
+## V2
+Tweak green to be more easily differentiable from yellow using HSV.
+First, make it complimentary to yellow (hue of 132).
+Regular version is set to a saturation of 60 and value of 80.
+Bright version is set to a saturation and value of 90.
+
 ## V1
 Non black/white colors are picked mathematically using a six-tone model, then tweaked individually by HSL.
 On the baseline, the hue used to generate the six tones is 180, the saturation 80-100 (regular/bright) and lightness +/-5% (45-55, regular/bright).

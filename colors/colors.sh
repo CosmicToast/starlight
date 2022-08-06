@@ -7,8 +7,8 @@ brblack=242424
 red=CF1745
 brred=FF1A53
 
-green=73C322
-brgreen=8CFF1A
+green=3ECF5B
+brgreen=17E640
 
 yellow=CFCF17
 bryellow=ECFF1A
