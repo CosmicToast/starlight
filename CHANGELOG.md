@@ -1,6 +1,13 @@
 # CHANGELOG
 Documentation on how the colors were determined in every version, along with the changes.
 
+## V3
+We use black as the background, and move old brblack into black.
+We then make brblack more of a gray.
+Since old brblack is 14% L, we double that to a 38% for the new brblack.
+This gives us a black of `#242424` and a brblack of `#616161`,
+with background being equivalent to `black`.
+
 ## V2
 Tweak green to be more easily differentiable from yellow using HSV.
 First, make it complimentary to yellow (hue of 132).

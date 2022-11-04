@@ -1,8 +1,8 @@
 theme=starlight
 
 # define all of the colors in hex (rgb)
-black=0D0D0D
-brblack=242424
+black=242424
+brblack=616161
 
 red=CF1745
 brred=FF1A53
@@ -25,5 +25,5 @@ brcyan=1AFFC6
 white=E6E6E6
 brwhite=FFFFFF
 
-background=$brblack
+background=$black
 foreground=$brwhite
