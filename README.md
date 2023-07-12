@@ -20,4 +20,4 @@ The goal is for me to only need to modify `colors/colors.sh` and the explanation
 * Bright variants should be identifiable side by side, but do not need to be uniquely identifiable.
 * Text in any color (except black) should be legible on the black, even when not bold.
 
-See the [CHANGELOG](CHANGELOG) to see implementation details.
+See the [CHANGELOG](CHANGELOG.md) to see implementation details.
