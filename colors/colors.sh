@@ -16,8 +16,8 @@ bryellow=E9E836
 blue=24ACD4
 brblue=5DC5F8
 
-magenta=E276D5
-brmagenta=FF92F1
+magenta=F2AFFD
+brmagenta=FEABF2
 
 cyan=13C299
 brcyan=24DFC4

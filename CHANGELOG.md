@@ -22,8 +22,10 @@ That said, the new colors are (L, C, H):
 * Yellow: 80, 80, 90 and 90, 80, 100.
 * Blue: 65, 40, 230 and 75, 40, 240.
   The chromacity had to be reduced to fit into sRGB.
-* Magenta: 65, 60, 330 and 75, 60, 340.
-  The chromacity had to be reduced to fit into sRGB.
+* Magenta: 80, 45, 320 and 80, 45, 330.
+  Unfortuately, magenta is right between two problem colors (blue and red).
+  In the end, I got out of it by going the pastel route, making them soft
+  and differentiable via luminosity.
 * Cyan: 70, 50, 170 and 80, 50, 180.
   The chromacity had to be reduced to fit into sRGB.
   The hue and lightness had to be further played around with to accomodate color blindness.
