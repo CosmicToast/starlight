@@ -24,7 +24,7 @@ That said, the new colors are (L, C, H):
   The chromacity had to be reduced to fit into sRGB.
 * Magenta: 65, 60, 330 and 75, 60, 340.
   The chromacity had to be reduced to fit into sRGB.
-* Cyan: 70, 40, 190 and 80, 40, 200.
+* Cyan: 70, 50, 170 and 80, 50, 180.
   The chromacity had to be reduced to fit into sRGB.
   The hue and lightness had to be further played around with to accomodate color blindness.
 

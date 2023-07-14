@@ -19,8 +19,8 @@ brblue=5DC5F8
 magenta=E276D5
 brmagenta=FF92F1
 
-cyan=31BFB6
-brcyan=50DADE
+cyan=13C299
+brcyan=24DFC4
 
 white=E6E6E6
 brwhite=FFFFFF
