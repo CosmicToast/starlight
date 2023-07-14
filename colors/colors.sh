@@ -4,23 +4,23 @@ theme=starlight
 black=242424
 brblack=616161
 
-red=CF1745
-brred=FF1A53
+red=F62B5A
+brred=FF4D51
 
-green=3ECF5B
-brgreen=17E640
+green=47B413
+brgreen=35D450
 
-yellow=CFCF17
-bryellow=ECFF1A
+yellow=E3C401
+bryellow=E9E836
 
-blue=0BA6DA
-brblue=1AC6FF
+blue=24ACD4
+brblue=5DC5F8
 
-magenta=D926AC
-brmagenta=F53DC7
+magenta=E276D5
+brmagenta=FF92F1
 
-cyan=17CFA1
-brcyan=1AFFC6
+cyan=31BFB6
+brcyan=50DADE
 
 white=E6E6E6
 brwhite=FFFFFF

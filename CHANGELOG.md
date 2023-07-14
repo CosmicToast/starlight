@@ -1,6 +1,36 @@
 # CHANGELOG
 Documentation on how the colors were determined in every version, along with the changes.
 
+## V4
+V4 is a reimagining of starlight using the LCH color space.
+The comments in particular were regarding the accessibility (lack of contrast) of red and magenta.
+After some testing, WCAG AAA is not a particularly big deal, but a contrast ratio of at least 4 is highly recommendable.
+With some math and focus group testing,
+I determined that highly variable lightness values are somewhat inevitable when catering to color blindnesses:
+in part because they're what permit colorblind people to differentiate the colors,
+and in part because of the need to fit into sRGB.
+
+The new colors aim for an LCH L of 65 for the basic version and 75 for the bright version.
+Additionally, bright versions are hue-shifted right by 10.
+Chroma values are either 40, 60, or 80, depending on sRGB and colorblindness constraints.
+
+That said, the new colors are (L, C, H):
+* Red: 55, 80, 20 and 60, 80, 30.
+  The lightness needed to be reduced to fit into sRGB, but be high enough to remain legible.
+  For bright red, it looked different enough at 60, so it was kept to remain mostly within sRGB.
+* Green: 65, 80, 130 and 75, 80, 140.
+* Yellow: 80, 80, 90 and 90, 80, 100.
+* Blue: 65, 40, 230 and 75, 40, 240.
+  The chromacity had to be reduced to fit into sRGB.
+* Magenta: 65, 60, 330 and 75, 60, 340.
+  The chromacity had to be reduced to fit into sRGB.
+* Cyan: 70, 40, 190 and 80, 40, 200.
+  The chromacity had to be reduced to fit into sRGB.
+  The hue and lightness had to be further played around with to accomodate color blindness.
+
+The white and black values were left alone, as no one had issues with them.
+They may be changed in a patch.
+
 ## V3
 We use black as the background, and move old brblack into black.
 We then make brblack more of a gray.
