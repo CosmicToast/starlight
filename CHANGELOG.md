@@ -1,5 +1,6 @@
 # CHANGELOG
 Documentation on how the colors were determined in every version, along with the changes.
+For how they all look, you can see the [history file](data/HISTORY.md)
 
 ## V4
 V4 is a reimagining of starlight using the LCH color space.
