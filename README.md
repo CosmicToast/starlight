@@ -21,3 +21,8 @@ The goal is for me to only need to modify `colors/colors.sh` and the explanation
 * Text in any color (except black) should be legible on the black, even when not bold.
 
 See the [CHANGELOG](CHANGELOG.md) to see implementation details.
+
+## As Template
+A lot of the tooling present is usable as a template for other ansi color schemes.
+To use it this way, modify `colors.sh` and set your own colors, re-using all of the other scripts as-is.
+Don't forget to add a screenshot to `data/` and modify the README!
