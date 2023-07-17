@@ -15,5 +15,7 @@ reset() { acol 0; }
 
 # logical input processing
 colsep() { echo $* | fold -w2; }
+numdec() { printf '%d\n' 0x"$1" 0x"$2" 0x"$3"; }
+coldec() { numdec $(colsep "$@"); }
 fgc() { fgx $(colsep $1); }
 bgc() { bgx $(colsep $1); }
