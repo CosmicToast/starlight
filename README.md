@@ -15,6 +15,9 @@ The goal is for me to only need to modify `colors/colors.sh` and the explanation
 ## Screenshots
 ![Starlight](data/starlight.png)
 
+## Users
+You can find a list of things using starlight in the [USERS](USERS.md) file.
+
 ## Goals
 * All base colors (black, red, green, yellow, blue, magenta, cyan, white) should be easily uniquely identifiable.
 * Bright variants should be identifiable side by side, but do not need to be uniquely identifiable.
