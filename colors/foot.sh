@@ -3,7 +3,7 @@
 
 cat <<HEREDOC
 # $theme
-[colors]
+[colors-dark]
 foreground = $foreground
 background = $background
 
